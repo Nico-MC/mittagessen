@@ -99,7 +99,12 @@ export default {
       this.filteredRestaurants.sort(() => Math.random() - 0.5);
     },
     reset () {
-      this.$store.state.filter.category = ["Alles"];
+      this.$store.state.filter = {
+        category: ["Alles"],
+        distance: 0,
+        price: 0,
+        vege: 0
+      }
     }
   }
 }
