@@ -124,8 +124,8 @@ export default {
   }
 
   .buttons {
-    justify-content: center;
     margin-left: auto;
+    margin-top: auto
   }
 
   .buttons button {
